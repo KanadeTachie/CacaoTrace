@@ -1,0 +1,25 @@
+{
+  "canisters": {
+    "CacaotraceV1_backend": {
+      "main": "src/CacaotraceV1_backend/main.mo",
+      "type": "motoko"
+    },
+    "CacaotraceV1_frontend": {
+      "dependencies": [
+        "CacaotraceV1_backend"
+      ],
+      "source": [
+        "src/CacaotraceV1_frontend"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
