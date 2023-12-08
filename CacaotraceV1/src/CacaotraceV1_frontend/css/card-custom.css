@@ -1,0 +1,17 @@
+.card-custom {
+    width: 400px;
+    height: 244px;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    color: black;
+  }
+  
+  body {
+    background-image: url(../images/Purple\ App\ Phone\ Mockup\ Sales\ Marketing\ Presentation.png);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

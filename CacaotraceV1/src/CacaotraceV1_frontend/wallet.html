@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cacao Trace | Wallet</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/coin.css">
+    <link rel="stylesheet" href="css/card-custom.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand sticky-top pt-3 bg-body-tertiary">
+        <div class="row w-100 text-center px-5">
+            <p class="col"></p>
+            <a aria-current="page" href="index.html" class="lead col fs-4">Cacao Wallet</a>
+            <a aria-current="page" href="login.html" class="col text-end">Logout <i class="bi bi-person px-1"></i></a>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <div class="container p-3">
+        <div class="d-flex py-5 mx-5 mb-5 justify-content-around">
+            <div class="card">
+                    <h5 class="h5 border-bottom border-danger-subtle border-3 p-2"><img src="images/LOGO_NO_BG.png" class="img-fluid w-25 me-3" alt="...">Cacao Token</h5>
+                    <div data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <h4 class="px-1 fw-semibold">Balance</h4>
+                        <h5 class="px-1">0.00 CT</h5>
+                    </div>
+                    <h6 class="px-1 pb-2 fs-6 lead" style="cursor:auto;">Address: 8bev802...092c</h6>
+                    <div class=" mb-3 px-1 w-100">
+                        <div class="mb-2">
+                            <button class="text-white button-62 me-1" data-bs-toggle="modal" data-bs-target="#sendModal">Send</button>
+                            <button class="text-white button-62" data-bs-toggle="modal" data-bs-target="#recieve-modal">Recieve</button>
+                        </div>
+                        <button class="text-white button-62 w-100" data-bs-toggle="modal" data-bs-target="#buy-token">+ Buy Cacao Token</button>
+                    </div>
+                    <p class="mx-2">
+                        Authenticity & Transparency
+                    </p>
+            </div>
+
+        <div class="card-custom border-bottom border-secondary border-3">
+            <p class="lead">Orders that you submit cannot be canceled or changed afterward. You are seeking an irreversible and recallable on-chain transaction when you submit a withdrawal request. It is your responsibility to check that the recipient address is correct for the asset you have chosen to withdraw.</p>
+        </div>
+            
+        </div>
+    </div>
+    
+    <!-- Modal Transaction History -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Transaction History</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                History is Empty
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="text-white button-62" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal Send -->
+    <div class="modal fade" id="sendModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="sendModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Send</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                    <div class="row">
+                        <div class="col">Source</div>
+                        <div class="col text-end">0.00 CT</div>
+                    </div>
+                        <input type="text" class="form-control" id="recipient-name" value="Cacao Token" readonly>
+                    </div>
+                    <div class="mb-3">
+                        <label for="destination" class="col-form-label">Destination:</label>
+                        <input type="text" class="form-control" id="destination">
+                    </div>
+                    <div class="">
+                        <label for="amount" class="col-form-label">Amout:</label>
+                        <input type="text" class="form-control" id="amount">
+                    </div>
+                </form>
+                </div>
+                <p class="lead fs-6 ps-3">Transaction Fee (billed to source)</p>
+                <div class="modal-footer">
+                    <button type="button" class="button-62 text-white" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="button-62 text-white">Continue</button>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Recieve -->
+    <div class="modal fade" id="recieve-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="recieve-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Recieve</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <div class="col">Account</div>
+                    </div>
+                    <div class="mb-3 text-center">
+                        <img src="images/rickroll-qrcode.webp" alt="" class="img-fluid">
+                    </div>
+                    <div class="">
+                        <label for="amount" class="col-form-label">Address:</label>
+                        <input type="text" class="form-control" id="address" value="8bev802bvnbc79bcv34nvhb2n1v9092c">
+                    </div>
+                </form>
+            </div>
+                <div class="modal-footer">
+                    <button type="button" class="button-62 text-white" data-bs-dismiss="modal">Close</button>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal BUY TOKEN -->
+    <div class="modal fade" id="buy-token" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="buy-token" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Send</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul class="nav nav-tabs justify-content-evenly" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active button-62 text-white px-5" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Buy</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link button-62 text-white px-5" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Sell</button>
+                    </li>
+                  </ul>
+            <!-- Tabs Content -->
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                    <form>
+                        <div class="mb-3">
+                            <label for="destination" class="col-form-label">Spend</label>
+                            <div class="d-flex">
+                                <input type="text" class="form-control" id="destination" value="0.00">
+                                <input type="text" class="form-control w-25 text-center" id="destination" value="PHP" readonly>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="destination" class="col-form-label">Recieve</label>
+                            <div class="d-flex">
+                                <input type="text" class="form-control" id="destination" value="0.00">
+                                <input type="text" class="form-control w-25 text-center" id="destination" value="CT" readonly>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="destination" class="col-form-label">Wallet Address</label>
+                            <input type="text" class="form-control" id="destination" value="8bev802bvnbc79bcv34nvhb2n1v9092c" readonly>
+                        </div>
+                        <div class="mb-3">
+                            <label for="destination" class="col-form-label">Selected blockchain</label>
+                            <input type="text" class="form-control" id="destination" value="Internet Computer" readonly>
+                        </div>
+                        <div class="mb-3">
+                            <label for="destination" class="col-form-label">Payment Method</label>
+                            <input type="text" class="form-control mb-1" id="destination" value="Visa/Mastercard" readonly>
+                            <img src="https://4a7efb2d53317100f611-1d7064c4f7b6de25658a4199efb34975.ssl.cf1.rackcdn.com/visa-mastercard-agree-to-give-gas-pumps-break-on-emv-shift-showcase_image-9-p-2335.jpg" class="img-fluid w-50" alt="">
+                            
+                        </div>
+
+                        <button class="button-62 w-100">Place Order</button>
+                        
+                    </form>
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                    <form>
+                        <div class="mb-3">
+                            <label for="destination" class="col-form-label">Sell</label>
+                            <div class="d-flex">
+                                <input type="text" class="form-control" id="destination" value="0.00">
+                                <input type="text" class="form-control w-25 text-center" id="destination" value="CT" readonly>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="destination" class="col-form-label">Recieve</label>
+                            <div class="d-flex">
+                                <input type="text" class="form-control" id="destination" value="0.00">
+                                <input type="text" class="form-control w-25 text-center" id="destination" value="PHP" readonly>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="destination" class="col-form-label">Payment Method</label>
+                            <input type="text" class="form-control mb-1" id="destination" value="Visa/Mastercard" readonly>
+                            <img src="https://4a7efb2d53317100f611-1d7064c4f7b6de25658a4199efb34975.ssl.cf1.rackcdn.com/visa-mastercard-agree-to-give-gas-pumps-break-on-emv-shift-showcase_image-9-p-2335.jpg" class="img-fluid w-50" alt="">
+                            
+                        </div>
+
+                        <button class="button-62 w-100">Place Order</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    
+    
+    <footer class="position-absolute bottom-0 w-100 text-center text-white py-2">
+        Team Ohana | Cacao Trace 2023
+    </footer>
+
+    <script src="js/copy.js" language="javascript" type="text/javascript"></script>
+    
+</body>
+</html>
