@@ -2,12 +2,13 @@
 ## :computer: Hackathon submission by Team CacaoTrace 
 
 🚀 **About CacaoTrace** \
-CacaoTrace is a revolutionary service, it provides a platform that enables a system of trust between consumers, investors and cooperatives. By using ICP and blockchain technology, we utilize inventory transparency and digital tokenization to help empower cacao farming in Davao.
+CacaoTrace is a revolutionary service, it provides a platform that enables a system of trust between consumers, investors and cooperatives. By using blockchain technology under ICP platform, we utilize Supply Chain Transparency and Digital Tokenization to help empower Cacao farming and manaufacturing in Davao.
 
 :gear: **Key Features**
-* Uses Distributed Ledger Technology (DLT)
 * Digital Tokenization
-* Laser Proof Tampered QR Codes
+* Supply chain Transparency (Inventory and Financial Transaction)
+* Uses Distributed Ledger Technology (Cooperatives:Sharing of Information)
+* Laser Proof Tampered QR Codes (Authentication)
   
 :bulb: **General Info**
 * This project is made using Javascript, HTML 5, and CSS 3. To be deployed to the Internet Computer using DFX
@@ -57,7 +58,7 @@ This temporary canister in the Internet Computer Playground only lasts 20mins
 ## :pen: Authors and Contributors 
 * **Aaron Dave A. Siapuatco** (Team Leader, Backend Assistant) [@ewandeyb](https://github.com/ewandeyb)
 * **King Igmedio Nicolai N. Behimino** (Backend Dev, Github Manager) [@KanadeTachie](https://github.com/KanadeTachie)
-* **Mohammad Muraya S. Tampugao** (Head Content Manager / Pitch Head)
+* **Mohammad Muraya S. Tampugao** (Head Content Manager / Pitch Head) [@EmTampz](https://github.com/EmTampz)
 * **Phillip Ian John Hufana** (Assistant Idea Manager)
 * **Owen Y. Cariño** (Frontend Dev) [@MediumCoffee](https://github.com/MediumCoffee)
 * **Jeffer John P. Mezo** (Pitch video editor, Assistant Content Manager, Assistant Frontend) [@jeff-mezo](https://github.com/jeff-mezo)
