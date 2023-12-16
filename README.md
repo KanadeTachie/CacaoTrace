@@ -26,7 +26,7 @@ You must have the following installed in your machine:
 
 ### :gear: Setting up
 Firstly, clone this Github repo to your local drive using either of the following:
-* Open this link using Github desktop https://github.com/KanadeTachie/Hackathon-Ohana.git
+* Open this link using Github desktop https://github.com/KanadeTachie/CacaoTrace.git
 * Using Github CLI, input this code 
 ```gh repo clone KanadeTachie/Hackathon-Ohana```
 
