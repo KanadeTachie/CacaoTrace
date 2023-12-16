@@ -1,497 +1,278 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cacao Trace | Home</title>
 
-        <meta name="description" content="">
-        <meta name="author" content="">
-
-        <title>CacaoTrace</title>
-
-        <!-- CSS FILES -->        
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-        <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
-
-        <link href="css/templatemo-ebook-landing.css" rel="stylesheet">
-
-    </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/sneksnek.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/check-box.css">
     
-    <body>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/selectBox.css">
+    
+</head>
+<body>
+    <nav class="navbar sticky-top p-2 px-4 text-dark bg-blur">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+          <a class="navbar-brand logo d-flex align-items-center me-5" href="#">
+            <img src="images/Logo.jpg" alt="" class="img-fluid me-3 rounded-circle">
+            <h2>Cacao Trace</h2>
+          </a>
+          <div class="btn-group fs-5 ms-5" role="group" aria-label="Basic example">
+            <a class="nav-link a" aria-current="page" href="#">About</a>
+            <a class="nav-link a" aria-current="page" href="#">Blog</a>
+            <a class="nav-link a" aria-current="page" href="#">Products</a>
+            <a class="nav-link a" aria-current="page" href="#">Contact</a>
+          </div>
+          <div>
+            <a href="" class="button-87">Connect To Wallet</a>
+          </div>
+        </div>
+      </nav>
+    
+    <section class="text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>100% Authentic <span class="g-text">Cacao Beans</span></h1>
+                    <p class="lead my-4 me-5">Global blockchain in agriculture and food supply chain. 
+                      Digital Tokenization & Inventory Transparency</p>
+                    <a href="" class="button-87 w-25">Pitch Deck</a>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="images/blur_edges.png" alt="">
+            </div>
+        </div>
+    </section>
 
-        <main>
+    <section class="p-5 text-center">
+      <video style="width: 80%" controls>
+        <source src="video_01.mp4" type="video/mp4">
+    </video>
+    </section>
+    
+    <section class="text-light p-5 mt-5 text-center text-sm-start">
+      <div class="container">
+          <div class="login-box">
+            <form>
+              <h2>Purchase Cacao</h2>
+              <div class="wallet" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <h5>Wallet Balance:</h5>
+                  <p class="lead">0.00 Cacao Token</p>
+              </div>
 
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html">
-                        <img style="margin-bottom: 10px; width: 40px; height: 40px;"src="images/logo2.png" alt="CacaoTrace">
-                        <span>CacaoTrace</span>
+              <div class="my-4">
+                <h5>Address:</h5>
+                <p class="lead">zbc792bchfdh347cmvidjdd8032pdi9174nbbv029ydbsz1</p>
+              </div>
+
+              <h5>Cooperatives: </h5>
+                
+                <div class="row row-cols-2 check-container bg-opacity-50 rounded">
+                  
+                  <div class="col p-5">
+                    <input type="checkbox" class="btn-check" id="btn-check-2" autocomplete="off">
+                    <label class="btn img-fluid my-3 border-0" for="btn-check-2"><img src="images/CacaoBrown.png" alt="" class="img-fluid w-100"></label>
+                  </div>
+                  
+                  <div class="col p-5">
+                    <input type="checkbox" class="btn-check" id="btn-check-3" autocomplete="off">
+                    <label class="btn img-fluid my-3 border-0" for="btn-check-3"><img src="images/CacaoGray.png" alt="" class="img-fluid w-100"></label>
+                  </div>
+
+                  <div class="col p-5">
+                    <input type="checkbox" class="btn-check" id="btn-check-1" autocomplete="off">
+                    <label class="btn img-fluid border-0" for="btn-check-1"><img src="images/CacaoBlue.png" alt="" class="img-fluid w-100"></label>
+                  </div>
+                </div>
+
+
+                <a href="#">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Purchase
+                </a>
+                
+              </form>
+            </div>
+      </div>
+  </section>
+    
+    <section class="text-light p-5 mt-5 text-center text-sm-start">
+        <div class="container">
+            <div class="login-box">
+                <h2>Purchase Token</h2>
+                <form>
+                    <label for="filesB" class="label">Select Wallet:</label>
+                    <select class="form-select p-2 text-white bg-warning bg-opacity-10" aria-label="Default select example">
+                      <option class="bg-dark" value="mypodcast" data-class="podcast">Internet Computer</option>
+                      <option class="bg-dark" data-class="video">ckBTC</option>
+                      <option class="bg-dark" data-class="ckETH">ckETH</option>
+                      <option class="bg-dark" data-class="dragginz">Dragginz</option>
+                      <option class="bg-dark" data-class="catalyze">Catalyze</option>
+                      <option class="bg-dark" data-class="modclub">Modclub</option>
+                      <option class="bg-dark" data-class="icx">ICX</option>
+                      <option class="bg-dark" data-class="nuance">Nuance</option>
+                      <option class="bg-dark" data-class="icghost">ICGhost</option>
+                    </select>
+                    
+                  <div class="user-box mt-5">
+                    <input type="number" name="" required="">
+                    <label>Amount</label>
+                  </div>
+
+                  <div class="d-flex justify-content-between">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#purchase">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      Purchase
                     </a>
+  
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#sendModal">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      Send
+                    </a>
+  
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#recieve-modal">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      Recieve
+                    </a>
+                  </div>
+                </form>
+              </div>
+        </div>
+    </section>
 
-                    <div class="d-lg-none ms-auto me-3">
-                        <a href="#" class="btn custom-btn custom-border-btn btn-naira btn-inverted">
-                            <i class="btn-icon bi-cloud-download"></i>
-                            <span>Download</span>
-                        </a>
-                    </div>
+    <footer class="bg-warning p-2 mt-5 text-center modal-bg text-white align-items-center"><p>Team Ohana | Cacao Trace 2023</p></footer>
     
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-    
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-lg-auto me-lg-4">
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_1">Home</a>
-                            </li>
-    
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_2">About</a>
-                            </li>
+    <!-- Modal Transaction History -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+          <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Transaction History</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              History is Empty
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="text-white button-87 p-2" data-bs-dismiss="modal">Close</button>
+          </div>
+      </div>
+      </div>
+  </div>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_3">Vision</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_4">Reviews</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
-                            </li>
-                        </ul>
-
-                        <div class="d-none d-lg-block">
-                            <a href="login.html" class="btn custom-btn custom-border-btn btn-naira btn-inverted">
-                                <i class="btn-icon bi-person"></i>
-                                <span>CONNECT TO WALLET</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-            
-
-            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
-                <div class="container">
-                    <div class="row" style="height: 100vh;">
-
-                        <div class="col-6 mb-5 pb-5" id="header">
-
-                            <h6>Introducing</h6>
-
-                            <h1 class="text-white mb-4"> ICP Meets Chocolate: <span style="color:brown">Cacao</span>Trace
-                            </h1>
-                            <p style="color:white">CacaoTrace creates a tamper-proof record of every transaction in the supply chain, ensuring that every cacao is traceable, secure, and ethically sourced.</p>
-                            <a href="#section_2" class="btn custom-btn smoothscroll me-3">Discover</a>
-
-                            <a style="color:#E9C46A"href="#section_3" class="link link--kale smoothscroll">Features</a>
-                        </div>
-
-                        <div class="hero-image-wrap col-6" id="header-img" style="padding-right: 70px;">
-                            <img src="images/mockup.png" style="height:auto; max-height: 600px;"class="hero-image img-fluid" alt="education online books">
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-
-            <section class="featured-section">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-8 col-12">
-                            <div class="avatar-group d-flex flex-wrap align-items-center">
-                                <p>In partnership with  </p>
-                                <img src="images/dfinity_logo.png" class="img-fluid" alt="dfinity">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <section class="py-lg-5"></section>
+  <!-- Modal Purchase -->
+  <div class="modal fade" id="purchase" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="sendModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content modal-bg text-white">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Purchase</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead fs-6 ps-3">Orders that you submit cannot be canceled or changed afterward. You are seeking an irreversible and recallable on-chain transaction when you submit a withdrawal request. It is your responsibility to check that the recipient address is correct for the asset you have chosen to withdraw.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="button-87 p-2 text-white" data-bs-dismiss="modal">Cancel</button>
+            <button type="button" class="button-87 p-2 text-white">Continue</button>
+        </div>
 
             
-            <section class="book-section section-padding" id="section_2">
-                <div class="container">
-                    <div class="row">
-                        <video style="width: 100%; height: auto;" controls>
-                            <source src="video_01.mp4" type="video/mp4">
-                        </video>
-
-                        <div class="col-lg-6 col-12">
-                            <img src="images/tablet-screen-contents.jpg" class="img-fluid" alt="">
-                        </div>
-
-                        <div class="col-lg-6 col-12">
-                            <div class="book-section-info">
-                                <h6>Traceable &amp; Secure</h6>
-
-
-                                <h2 class="mb-4">Our Solution.</h2>
-                                <p>CacaoTrace empowers farmers to be more productive and sustainable by providing them with a fair share of the profits, while also providing them with education, health care, and other benefits. It also helps businesses to ensure the authenticity and quality of their cacaos, while also promoting transparency and sustainability in the supply chain. </p>
-                                <p>Customers can enjoy high-quality chocolate cacaos that are ethically sourced and traceable, while also supporting the livelihoods of farmers and the environment</p>
-                                
-
-                            </div>
-                        </div>
-
-                    </div>
+        </div>
+    </div>
+</div>
+  
+  <!-- Modal Send -->
+  <div class="modal fade" id="sendModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="sendModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content modal-bg text-white">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Send</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                <div class="row">
+                    <div class="col">Source</div>
+                    <div class="col text-end">0.00 CT</div>
                 </div>
-            </section>
-
-
-            <section>
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-12 col-12 text-center">
-                            <h6>Why CacaoTrace?</h6>
-
-                            <h2 class="mb-5">One service, endless possibilities</h2>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <nav id="navbar-example3" class="h-100 flex-column align-items-stretch">
-                                <nav class="nav nav-pills flex-column">
-                                    <a class="nav-link smoothscroll" href="#item-1">Introduction</a>
-
-                                    <a class="nav-link smoothscroll" href="#item-2">Chapter 1: <strong>Cacao's Journey</strong></a>
-
-                                    <a class="nav-link smoothscroll" href="#item-3">Chapter 2: <strong>The supply-chain</strong></a>
-
-                                    <a class="nav-link smoothscroll" href="#item-4">Chapter 3: <strong>Why CacaoTrace?</strong></a>
-
-                                    <a class="nav-link smoothscroll" href="#item-5">Chapter 4: <strong>Success Story</strong></a>
-                                </nav>
-                            </nav>
-                        </div>
-
-                        <div class="col-lg-8 col-12">
-                            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
-                                <div class="scrollspy-example-item" id="item-1">
-                                    <h5>Introducing CacaoTrace</h5>
-
-                                    <p>Here is a short outline, on what technology and aspects we will tackle.</p>
-
-                                    <p><strong>Tokenization</strong> creating a unique digital token that represents the cacao</p>
-
-                                    <p><strong>QR Code</strong> Physical component to verify the unique token on the cacao.</p>
-
-                                    <p><strong>Smart Contracts</strong> Will be used to streamline the technical information of the cacao, like climate, variety, origin.</p>
-
-                                    <p><strong>Transparency</strong> for farmers, businesses and customers.</p>
-
-                                    <p><strong>Authenticity</strong> for each cacao produced and sold.</p>
-
-                                    <p><strong>Sustainability</strong> to decrease fraud, increase efficiency and create value-added products.</p>
-                                    <blockquote class="blockquote">Trace the journey of your chocolate from bean to bar</blockquote>
-                                </div>
-
-                                <div class="scrollspy-example-item" id="item-2">
-                                    <h5>What we do with your cacao.</h5>
-
-                                    <p>What does your cacao go through with us?
-                                        First, your endorsement catches our attention! To make sure you are indeed producing the cacaos endorsed, you go through our extensive authentication process, which involves creating an immutable and tamperproof record of transaction.
-                                    </p>
-                                        
-                                    <p>We then tokenize the cacaos you deliver! A special QR code will be placed on each of your cacaos you produced. These QR codes will contain the origin, quality, authenticity, and the price to be dictated by yours alone. 
-                                    </p> 
-                                    <p>
-                                        Your cacaos are then tracked on the way to the shelves and tables, ensuring reliable transactions, harvests, packaging and shipping are recorded in our special QR code. These cacaos are then verified by the blockchain token located in QR code as well as in our records!
-                                    </p>
-                                    <p>
-                                        Finally, your best quality cacaos are then sold to the leading marketplaces and consumers. Once sold, the tamperproof QR code which holds the one-of-a-kind token that held the records of where your cacao has gone through, will have an ending at the last of the list with the name of the first customer. This ensures that after leaving the factories, your cacaos have first arrived safely to a loyal customer. A reliable and protected way of selling your cacaos straight to the customer with authenticity!
-                                    </p>
-                                    <div class="row">
-                                        <div class="col-lg-6 col-12 mb-3">
-                                            <img src="images/portrait-mature-smiling-authoress-sitting-desk.jpg" class="scrollspy-example-item-image img-fluid" alt="">
-                                        </div>
-
-                                        <div class="col-lg-6 col-12 mb-3">
-                                            <img src="images/businessman-sitting-by-table-cafe.jpg" class="scrollspy-example-item-image img-fluid" alt="">
-                                        </div>
-                                    </div>
-
-                                    <p>If you need some specific CSS templates, you can Google with keywords such as templatemo gallery, templatemo digital marketing, etc.</p>
-                                </div>
-
-                                <div class="scrollspy-example-item" id="item-3">
-                                    <h5>Manage Assets &amp; Assure Authenticity  </h5>
-
-                                    <p>Credit goes to <a rel="nofollow" href="https://freepik.com" target="_blank">FreePik</a> for images used in this ebook landing page template. You may browse FreePik to download more free images for your website.</p>
-                                    <p>This is a second paragraph. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-
-                                    <p>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt ut labore.</p>
-
-                                    <div class="row align-items-center">
-                                        <div class="col-lg-6 col-12">
-                                            <img src="images/tablet-screen-contents.jpg" class="img-fluid" alt="">
-                                        </div>
-
-                                        <div class="col-lg-6 col-12">
-                                            <p>Modern ebook ever</p>
-
-                                            <p><strong>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt.</strong></p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="scrollspy-example-item" id="item-4">
-                                    <h5>You Decide.</h5>
-
-                                    <p>
-                                        CacaoTrace uses the latest advancements in blockchain technology to help our local and important farmers to effectively sell their produce with honest authenticity. Through the use of blockchain, customers can guarantee their products are made by the best producers and are legitimate to meet needs expectations. 
-                                    </p>
-                                    <p>
-                                        Our blockchain idea guarantees reliable safety from counterfeit and substandard produce, which resellers or markets could do. 
-                                    </p>
-                                    <p>
-                                        If you are a farmer or a producer, you can guarantee your produce reaches the best consumers with the ledger we have provided for you. You can see where your produce is now, what market are they in, how many are sold in real time through your blockchain ledger! 
-                                    </p>
-                                    <p>
-                                        If you are a company leader, you can ensure the best quality control through our blockchain. Your logistics couldn’t be more reliable to reach the markets safely with your company ledger provided by yours truly. 
-                                    </p>
-
-                                    <p>Lorem ipsum dolor sit amet, consive adipisicing elit, sed do eiusmod. tempor incididunt ut labore.</p>
-
-                                    <p>You are not allowed to redistribute this template ZIP file on any other template collection website. Please contact TemplateMo for more information.</p>
-
-                                    <img src="images/portrait-mature-smiling-authoress-sitting-desk.jpg" class="scrollspy-example-item-image img-fluid mb-3" alt="">
-
-                                    <p>You may want to contact us for more information about this template.</p>
-                                </div>
-
-                                <div class="scrollspy-example-item" id="item-5">
-                                    <h5>Meet Owen</h5>
-
-                                    <p>Owen is a cacao farmer, farming the mangochapui variant of cacao. He sells it to a middleman, who then resells it for 40% markup.</p>
-
-                                    <p>Doing 100% more work than the middleman, from planting, taking care, and harvesting. Middlemen all over Davao, take advantage of our fellow farmers.</p>
-
-                                    <p><strong>What if we eliminate intermediaries?</strong> Free CSS Templates are a variety of ready-made web pages designed for different kinds of websites.</p>
-
-                                    <blockquote class="blockquote">Lorem Ipsum dolor sit amet, consectetur adipsicing kengan omeg kohm tokito</blockquote>
-
-                                    <p>You may browse TemplateMo website for more CSS templates. Thank you for visiting our website.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                    <input type="text" class="form-control" id="recipient-name" value="Cacao Token" readonly>
                 </div>
-            </section>
-
-
-            <section class="author-section section-padding" id="section_3">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-6 col-12">
-                            <img src="images/logo.jpg" class="author-image img-fluid" alt="">
-                        </div>
-
-                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
-                            <h6>Why we do what we do.</h6>
-
-                            <h2 class="mb-4">Our Vision</h2>
-
-                            <p>CacaoTrace creates a tamper-proof record of every transaction in the supply chain, ensuring that every cacao is traceable, secure, and ethically sourced.</p>
-
-                            <p>With ICP it can help eliminate middlemen in the exporting of cacao seeds, as well as verify the quality and origin of the cacao cacaos. Blockchain can also enable smart contracts, which are self-executing agreements that can facilitate transactions and payments.</p>
-
-                            
-                        </div>
-
-                    </div>
+                <div class="mb-3">
+                    <label for="destination" class="col-form-label">Destination:</label>
+                    <input type="text" class="form-control" id="destination">
                 </div>
-            </section>
-
-
-            <section class="reviews-section section-padding" id="section_4">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-12 col-12 text-center mb-5">
-                            <h6>Cacao Confessions   </h6>
-
-                            <h2>What people around the world are saying...</h2>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="custom-block d-flex flex-wrap">
-                                <div class="custom-block-image-wrap d-flex flex-column">
-                                    <img src="images/milka.jpg" class="img-fluid avatar-image" alt="">
-
-                                    <div class="text-center mt-3">
-                                        <span class="text-white">Shiela</span>
-
-                                        <strong class="d-block text-white">VP, Operations</strong>
-                                    </div>
-                                </div>
-
-                                <div class="custom-block-info">
-                                    <div class="reviews-group mb-3">
-                                        <strong>Milka</strong>
-                                    </div>
-
-                                    <p class="mb-0">CacaoTrace has made it difficult for any single entity to manipulate the data we usually have, it also provides us intricate details for cacao we use.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12 my-5 my-lg-0">
-                            <div class="custom-block d-flex flex-wrap">
-                                <div class="custom-block-image-wrap d-flex flex-column">
-                                    <img src="images/hershey.png" class="img-fluid avatar-image avatar-image-left" alt="">
-
-                                    <div class="text-center mt-3">
-                                        <span class="text-white">John</span>
-
-                                        <strong class="d-block text-white">CEO</strong>
-                                    </div>
-                                </div>
-
-                                <div class="custom-block-info">
-                                    <div class="reviews-group mb-3">
-                                        <strong>Hersheys</strong>
-                                    </div>
-
-                                    <p class="mb-0">CacaoTrace has increased efficiency, and created value-added products for our customers, as every product is traceable, secure, and ethically sourced</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="custom-block d-flex flex-wrap">
-                                <div class="custom-block-image-wrap d-flex flex-column">
-                                    <img src="images/ferrero.png" class="img-fluid avatar-image" alt="">
-
-                                    <div class="text-center mt-3">
-                                        <span class="text-white">Candy</span>
-
-                                        <strong class="d-block text-white">VP, Quality Control</strong>
-                                    </div>
-                                </div>
-
-                                <div class="custom-block-info">
-                                    <div class="reviews-group mb-3">
-                                        <strong>Ferrero Rochet</strong>
-                                    </div>
-
-                                    <p class="mb-0">CacaoTrace has revolutionized the way we source our cacao products. We are proud to be a part of this innovative program.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                <div class="">
+                    <label for="amount" class="col-form-label">Amout:</label>
+                    <input type="number" class="form-control" id="amount">
                 </div>
-            </section>
+            </form>
+            </div>
+            <p class="lead fs-6 ps-3">Transaction Fee (billed to source)</p>
+            <div class="modal-footer">
+                <button type="button" class="button-87 p-2 text-white" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="button-87 p-2 text-white">Continue</button>
+            </div>
 
+            
+        </div>
+    </div>
+</div>
 
-            <section class="contact-section section-padding" id="section_5">
-                <div class="container">
-                    <div class="row">
+<!-- Modal Recieve -->
+<div class="modal fade" id="recieve-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="recieve-modal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content modal-bg text-white">
+      <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Recieve</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form>
+              <div class="mb-3">
+                  <div class="col">Account</div>
+              </div>
+              <div class="mb-3 text-center">
+                  <img src="images/rickroll-qrcode.webp" alt="" class="img-fluid">
+              </div>
+              <div class="">
+                  <label for="amount" class="col-form-label">Address:</label>
+                  <input type="text" class="form-control" id="address" value="8bev802bvnbc79bcv34nvhb2n1v9092c">
+              </div>
+          </form>
+      </div>
+          <div class="modal-footer">
+              <button type="button" class="button-87 p-2 text-white" data-bs-dismiss="modal">Close</button>
+          </div>
 
-                        <div class="col-lg-5 col-12 mx-auto">
-                            <form class="custom-form ebook-download-form bg-white shadow" action="#" method="post" role="form">
-                                <div class="text-center mb-5">
-                                    <h2 class="mb-1">Join the CacaoDao!</h2>
-                                </div>
+          
+      </div>
+  </div>
+</div>
 
-                                <div class="ebook-download-form-body">
-                                    <div class="input-group mb-4">
-                                        <input type="text" name="ebook-form-name" id="ebook-form-name" class="form-control" aria-label="ebook-form-name" aria-describedby="basic-addon1" placeholder="Your Name" required>
-
-                                        <span class="input-group-text" id="basic-addon1">
-                                            <i class="custom-form-icon bi-person"></i>
-                                        </span>
-                                    </div>
-
-                                    <div class="input-group mb-4">
-                                        <input type="email" name="ebook-email" id="ebook-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="your@company.com" aria-label="ebook-form-email" aria-describedby="basic-addon2" required="">
-
-                                        <span class="input-group-text" id="basic-addon2">
-                                            <i class="custom-form-icon bi-envelope"></i>
-                                        </span>
-                                    </div>
-
-                                    <div class="col-lg-8 col-md-10 col-8 mx-auto">
-                                        <button type="submit" class="form-control">Apply Now!</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-
-                        <div class="col-lg-6 col-12">
-                            <h6 class="mt-5">Say hi and talk to us</h6>
-
-                            <h2 class="mb-4">Contact</h2>
-
-                            <p class="mb-3">
-                                <i class="bi-geo-alt me-2"></i>
-                                Davao, Philippines
-                            </p>
-
-                            <p class="mb-2">
-                                <a href="tel: 010-020-0340" class="contact-link">
-                                    123-2302-121
-                                </a>
-                            </p>
-
-                            <p>
-                                <a href="mailto:info@company.com" class="contact-link">
-                                    leads@cacaotrace.ph
-                                </a>
-                            </p>
-
-                            <h6 class="site-footer-title mt-5 mb-3">Social</h6>
-
-                            <ul class="social-icon mb-4">
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-instagram"></a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-twitter"></a>
-                                </li>
-                                
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-facebook"></a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-whatsapp"></a>
-                                </li>
-                            </ul>
-
-                            <p class="copyright-text">Copyright ©2023 CacaoTrace
-                            <br><br><a rel="nofollow" href="https://templatemo.com" target="_blank">designed by Ohana</a></p>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!-- JAVASCRIPT FILES -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/jquery.sticky.js"></script>
-        <script src="js/click-scroll.js"></script>
-        <script src="js/custom.js"></script>
-
-    </body>
+    <script src="js/image.js"></script>
+    <script src="js/selectBox.js"></script>
+    <script src="js/sneksnek.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
 </html>

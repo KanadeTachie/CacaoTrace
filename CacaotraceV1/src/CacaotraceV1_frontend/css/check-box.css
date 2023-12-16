@@ -1,0 +1,8 @@
+/* This is the CSS code */
+input[type=checkbox]:checked + label {
+    opacity: 0.75;
+}
+
+.check-container {
+    background-color: rgba(101, 59, 0, 0.326);
+}

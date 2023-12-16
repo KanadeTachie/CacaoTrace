@@ -1,0 +1,61 @@
+.label {
+  margin-bottom: 8px;
+}
+
+/* select with custom icons */
+.ui-selectmenu-menu .ui-menu.customicons .ui-menu-item-wrapper {
+  padding: 0.5em 0 0.5em 3em;
+}
+.ui-selectmenu-menu .ui-menu.customicons .ui-menu-item .ui-icon {
+  height: 24px;
+  width: 34px;
+  top: 0.25em;
+}
+/* .ui-icon.video {
+  background: url(https://nns.ic0.app/_app/immutable/assets/ckBTC.2fd0cbdc.svg) 0 0 no-repeat;
+}
+.ui-icon.podcast {
+  background: url('/images/internet-computer-icp-logo.svg') 0 0 no-repeat;
+}
+.ui-icon.ckETH {
+  background: url(https://nns.ic0.app/_app/immutable/assets/ckETH.39d88c9c.svg) 0 0 no-repeat;
+}
+.ui-icon.dragginz {
+  background: url('/images/internet-computer-icp-logo.svg') 0 0 no-repeat;
+}
+.ui-icon.catalyze {
+  background: url('/images/internet-computer-icp-logo.svg') 0 0 no-repeat;
+}
+.ui-icon.modclub {
+  background: url('/images/internet-computer-icp-logo.svg') 0 0 no-repeat;
+}
+.ui-icon.nuance {
+  background: url('/images/internet-computer-icp-logo.svg') 0 0 no-repeat;
+}
+.ui-icon.icghost {
+  background: url('/images/internet-computer-icp-logo.svg') 0 0 no-repeat;
+}
+.ui-icon.icx {
+  background: url('/images/internet-computer-icp-logo.svg') 0 0 no-repeat;
+} */
+
+
+
+#filesB-button {
+  background-color: #F4A261;
+  /* background-image: linear-gradient(45deg, #654321 0%, #F09819  51%, #A0522D  100%); */
+  padding: 10px 10px;
+  color: white;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+#filesB-button:hover {
+  background-position: right center;
+  text-decoration: none;
+}
+
+.ui-menu-item-wrapper {
+  background-image: linear-gradient(45deg, #654321 0%, #F09819  51%, #A0522D  100%);
+  color: white;
+}
