@@ -2,7 +2,7 @@
 ## :computer: Hackathon submission by Team CacaoTrace 
 
 🚀 **About CacaoTrace** \
-CacaoTrace is a revolutionary service, it provides a platform that enables a system of trust between consumers, investors and cooperatives. By using blockchain technology under ICP platform, we utilize Supply Chain Transparency and Digital Tokenization to help empower Cacao farming in Davao.
+CacaoTrace is a revolutionary service, it provides a platform that enables a system of trust between consumers, investors and cooperatives. By using blockchain technology under ICP platform, we utilize Supply Chain Transparency and Digital Tokenization to help empower Cacao farming and manaufacturing in Davao.
 
 :gear: **Key Features**
 * Digital Tokenization
