@@ -50,7 +50,7 @@ This temporary canister in the Internet Computer Playground only lasts 20mins
 ## :clap: Acknowledgements 
 * Sir Eliezer Rabadon for mentorship
 * ICP Philippines for the hackathon
-* Davao DeFi Community for making this event possible in Davao City
+* Davao DeFi Community
 ## :pen: Authors and Contributors 
 * **Aaron Dave A. Siapuatco** (Team Leader, Backend Assistant) [@ewandeyb](https://github.com/ewandeyb)
 * **King Igmedio Nicolai N. Behimino** (Backend Dev, Github Manager) [@KanadeTachie](https://github.com/KanadeTachie)
