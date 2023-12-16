@@ -8,6 +8,7 @@ CacaoTrace is a revolutionary service, it provides a platform that enables a sys
 * Uses Distributed Ledger Technology (DLT)
 * Digital Tokenization
 * Laser Proof Tampered QR Codes
+  
 :bulb: **General Info**
 * This project is made using Javascript, HTML 5, and CSS 3. To be deployed to the Internet Computer using DFX
 * This is the official Hakathon submission by Team CacaoTrace 
