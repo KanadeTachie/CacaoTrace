@@ -1,5 +1,5 @@
 # 🍫Cacaotrace 
-## :computer: Hackathon submission by Team CacaoTrace .[here](https://y2wu3-2iaaa-aaaak-qcwsq-cai.icp0.io/)
+## :computer: Hackathon submission by Team CacaoTrace [here!](https://y2wu3-2iaaa-aaaak-qcwsq-cai.icp0.io/)
 
 🚀 **About CacaoTrace** \
 CacaoTrace is a revolutionary service, it provides a platform that enables a system of trust between consumers, investors and cooperatives. By using blockchain technology under ICP platform, we utilize Supply Chain Transparency and Digital Tokenization to help empower Cacao farming and manaufacturing in Davao.
