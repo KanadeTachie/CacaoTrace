@@ -13,7 +13,8 @@ CacaoTrace is a revolutionary service, it provides a platform that enables a sys
 :bulb: **General Info**
 * This project is made using Javascript, HTML 5, and CSS 3. To be deployed to the Internet Computer using DFX
 * This is the official Hakathon submission by Team CacaoTrace 
-* This project has yet to be deployed in the Internet Computer and backend has yet to receive the free cycles promised
+* Not yet mobile responsive, if viewing on a phone, please use its desktop site feature
+* Added focus on landing page visuals, hence about & contact tabs are just for visual purposes, functionality to be added soon.
 
 
 ## :computer: Local Installation 
