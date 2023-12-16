@@ -58,7 +58,7 @@ This temporary canister in the Internet Computer Playground only lasts 20mins
 ## :pen: Authors and Contributors 
 * **Aaron Dave A. Siapuatco** (Team Leader, Backend Assistant) [@ewandeyb](https://github.com/ewandeyb)
 * **King Igmedio Nicolai N. Behimino** (Backend Dev, Github Manager) [@KanadeTachie](https://github.com/KanadeTachie)
-* **Mohammad Muraya S. Tampugao** (Head Content Manager / Pitch Head) [@KanadeTachie](https://github.com/EmTampz)
+* **Mohammad Muraya S. Tampugao** (Head Content Manager / Pitch Head) [@EmTampz](https://github.com/EmTampz)
 * **Phillip Ian John Hufana** (Assistant Idea Manager)
 * **Owen Y. Cariño** (Frontend Dev) [@MediumCoffee](https://github.com/MediumCoffee)
 * **Jeffer John P. Mezo** (Pitch video editor, Assistant Content Manager, Assistant Frontend) [@jeff-mezo](https://github.com/jeff-mezo)
