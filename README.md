@@ -5,7 +5,9 @@
 CacaoTrace is a revolutionary service, it provides a platform that enables a system of trust between consumers, investors and cooperatives. By using ICP and blockchain technology, we utilize inventory transparency and digital tokenization to help empower cacao farming in Davao.
 
 :gear: **Key Features**
-
+* Uses Distributed Ledger Technology (DLT)
+* Digital Tokenization
+* Laser Proof Tampered QR Codes
 :bulb: **General Info**
 * This project is made using Javascript, HTML 5, and CSS 3. To be deployed to the Internet Computer using DFX
 * This is the official Hakathon submission by Team CacaoTrace 
