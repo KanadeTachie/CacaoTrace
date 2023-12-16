@@ -35,7 +35,7 @@ With Github Desktop opened, use **Ctrl + Shift + A** to open the repo in Visual 
 Then, open a new console in Visual Studio Code and type ```wsl``` to use Windows Subsystem for Linux
 
 Then do the following commands:
-
+```
 dfx start --clean --background
 # This starts the dfx replica in a clean start, and running in the background
 
