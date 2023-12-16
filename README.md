@@ -9,6 +9,7 @@ CacaoTrace is a revolutionary service, it provides a platform that enables a sys
 * Supply chain Transparency (Inventory and Financial Transaction)
 * Uses Distributed Ledger Technology (Cooperatives:Sharing of Information)
 * Laser Proof Tampered QR Codes (Authentication)
+  
 :bulb: **General Info**
 * This project is made using Javascript, HTML 5, and CSS 3. To be deployed to the Internet Computer using DFX
 * This is the official Hakathon submission by Team CacaoTrace 
