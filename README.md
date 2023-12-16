@@ -1,7 +1,7 @@
-# 🍫CacaotraceV1
+# 🍫Cacaotrace
 ## :computer: Hackathon submission by Team CacaoTrace 
 
-🚀 **About CacaoTraceV1** \
+🚀 **About CacaoTrace** \
 CacaoTrace is a revolutionary service, it provides a platform that enables a system of trust between consumers, investors and cooperatives. By using ICP and blockchain technology, we utilize inventory transparency and digital tokenization to help empower cacao farming in Davao.
 
 :gear: **Key Features**
